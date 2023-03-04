@@ -1,6 +1,7 @@
 # ZMK config for my Corne keyboard
 - https://github.com/zmkfirmware/zmk
 - https://github.com/foostan/crkbd
+- https://github.com/nickcoutsos/keymap-editor
 
 ## Keymap
 <img width="1051" alt="image" src="https://user-images.githubusercontent.com/354473/222931947-1e3cb17a-655a-4375-9981-142fdda0c6a0.png">
