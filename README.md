@@ -1,5 +1,5 @@
 # ZMK config for my Corne keyboard
-<img width="1163" alt="Screenshot 2023-03-06 at 12 36 16 PM" src="https://user-images.githubusercontent.com/354473/223225047-60b69bed-5e5a-49a5-9c8f-06b95b0a6d63.png">
+<img width="1163" alt="Image of Corne keyboard" src="https://user-images.githubusercontent.com/354473/223225047-60b69bed-5e5a-49a5-9c8f-06b95b0a6d63.png">
 
 ## Build
 - Typeractive [Corne Kit](https://typeractive.xyz/pages/build)
