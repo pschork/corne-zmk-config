@@ -8,7 +8,7 @@
 ## Keymap
 <img width="705" alt="image" src="https://github.com/user-attachments/assets/8b17a136-3559-470f-9c64-2892b3fc9634" />
 
-<img width="704" alt="image" src="https://github.com/user-attachments/assets/08b7b95c-1bb2-43b5-904a-11f1a92e889c" />
+<img width="704" alt="image" src="https://github.com/user-attachments/assets/56f135de-e843-4e39-925a-3624323a2a35" />
 
 <img width="705" alt="image" src="https://github.com/user-attachments/assets/2cba20cf-fc07-4463-b7c0-3246d76c35cd" />
 
