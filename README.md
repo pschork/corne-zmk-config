@@ -1,4 +1,4 @@
-# ZMK config for my Corne keyboard
+# ZMK config for Corne keyboard
 <img width="999" alt="image" src="https://github.com/user-attachments/assets/55460277-b56a-470b-b6d3-e23377f96d40" />
 
 ## Specs
