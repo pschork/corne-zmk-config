@@ -2,8 +2,8 @@
 <img width="999" alt="image" src="https://github.com/user-attachments/assets/55460277-b56a-470b-b6d3-e23377f96d40" />
 
 ## Specs
-- Typeractive [Corne Mini](https://typeractive.xyz)
-- Kailh [Choc Brown](https://www.boardsource.xyz/products/choc-brown)
+- Typeractive [Corne Choc](https://typeractive.xyz)
+- Kailh [Choc v1 Pro Red](https://www.boardsource.xyz/products/choc-brown)
 
 ## Keymap
 <img width="705" alt="image" src="https://github.com/user-attachments/assets/8b17a136-3559-470f-9c64-2892b3fc9634" />
@@ -15,4 +15,3 @@
 ## Reference
 - https://github.com/nickcoutsos/keymap-editor
 - https://github.com/foostan/crkbd
-
