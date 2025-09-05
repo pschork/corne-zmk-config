@@ -8,15 +8,31 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        mod_tap_behavior: mod_tap_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_TAP_BEHAVIOR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <38 39>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E     &kp R  &kp T                     &kp Y                  &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D     &kp F  &kp G                     &kp H                  &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B                     &kp N                  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                         &kp LGUI  &mo 1  &mt LEFT_SHIFT BACKSPACE  &mt RIGHT_SHIFT SPACE  &mo 2  &kp RALT
+&kp ESC    &kp Q  &kp W  &kp E     &kp R  &kp T                                   &kp Y                                &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D     &kp F  &kp G                                   &kp H                                &kp J  &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B                                   &kp N                                &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
+                         &kp LGUI  &mo 1  &mod_tap_behavior LEFT_SHIFT BACKSPACE  &mod_tap_behavior RIGHT_SHIFT SPACE  &mo 2  &kp RALT
             >;
         };
 
